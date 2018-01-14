@@ -148,6 +148,12 @@
 #define BOARD_TEENSY2           84    // Teensy++2.0 (AT90USB1286) - CLI compile: HARDWARE_MOTHERBOARD=84  make
 #define BOARD_5DPRINT           88    // 5DPrint D8 Driver Board
 
+//
+// Formbot - based on RAMPS 1.3
+//
+
+#define BOARD_FORMBOT_TREX_2    300  // Formbot T-Rex 2 based on RAMPS 1.3 (Power outputs: Hotend, Fan, Bed)
+
 #define MB(board) (MOTHERBOARD==BOARD_##board)
 
 #endif // __BOARDS_H

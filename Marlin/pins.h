@@ -86,6 +86,8 @@
 #elif MB(RAMPS_PLUS_SF)
   #define IS_RAMPS_SF
   #include "pins_RAMPS_PLUS.h"
+#elif MB(FORMBOT_TREX_2)
+  #include "pins_TREX_2.h"
 
 //
 // RAMPS Derivatives - ATmega1280, ATmega2560
